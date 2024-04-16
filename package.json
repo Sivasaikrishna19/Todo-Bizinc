@@ -3,11 +3,7 @@
   "description": "This is a boilerplate build with Vite, React 18, TypeScript, Vitest, Testing Library, TailwindCSS 3, Eslint and Prettier.",
   "version": "0.1.0",
   "private": true,
-  "author": {
-    "name": "NSSK",
-    "email": "sivasaikrishna.nekkalapu@sjsu.edu",
-    "url": "https://github.com/Sivasaikrishna19"
-  },
+  "author": "NSSK <sivasaikrishna.nekkalapu@sjsu.edu> (https://github.com/Sivasaikrishna19)",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -47,5 +43,7 @@
     "vite": "^5.2.7",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^1.4.0"
-  }
+  },
+  "main": "index.js",
+  "license": "ISC"
 }
